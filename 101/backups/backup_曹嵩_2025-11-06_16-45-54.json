@@ -1,0 +1,202 @@
+{
+    "transactions": [],
+    "budgets": [],
+    "friends": [
+        {
+            "id": 16,
+            "user_id": 2,
+            "name": "阿三",
+            "phone": "",
+            "note": "",
+            "created_at": "2025-11-05 21:05:07"
+        },
+        {
+            "id": 17,
+            "user_id": 2,
+            "name": "李四",
+            "phone": "",
+            "note": "",
+            "created_at": "2025-11-06 11:48:48"
+        }
+    ],
+    "friend_transactions": [
+        {
+            "id": 2,
+            "user_id": 2,
+            "account_id": 1,
+            "friend_id": 16,
+            "type": "lend",
+            "amount": "100.00",
+            "description": "借钱",
+            "transaction_date": "2025-11-05 21:05:28",
+            "created_at": "2025-11-05 21:05:28"
+        },
+        {
+            "id": 3,
+            "user_id": 2,
+            "account_id": 1,
+            "friend_id": 16,
+            "type": "lend",
+            "amount": "8.00",
+            "description": "吃晚饭",
+            "transaction_date": "2025-11-05 21:05:46",
+            "created_at": "2025-11-05 21:05:46"
+        },
+        {
+            "id": 4,
+            "user_id": 2,
+            "account_id": 1,
+            "friend_id": 16,
+            "type": "repay",
+            "amount": "200.00",
+            "description": "还钱",
+            "transaction_date": "2025-11-05 21:06:09",
+            "created_at": "2025-11-05 21:06:09"
+        },
+        {
+            "id": 5,
+            "user_id": 2,
+            "account_id": 1,
+            "friend_id": 17,
+            "type": "lend",
+            "amount": "100.00",
+            "description": "借钱",
+            "transaction_date": "2025-11-06 11:48:59",
+            "created_at": "2025-11-06 11:48:59"
+        },
+        {
+            "id": 6,
+            "user_id": 2,
+            "account_id": 1,
+            "friend_id": 16,
+            "type": "lend",
+            "amount": "10.00",
+            "description": "在中是",
+            "transaction_date": "2025-11-06 11:49:22",
+            "created_at": "2025-11-06 11:49:22"
+        },
+        {
+            "id": 7,
+            "user_id": 2,
+            "account_id": 3,
+            "friend_id": 17,
+            "type": "borrow",
+            "amount": "50.00",
+            "description": "奖励",
+            "transaction_date": "2025-11-06 11:49:31",
+            "created_at": "2025-11-06 11:49:31"
+        }
+    ],
+    "accounts": [
+        {
+            "id": 1,
+            "user_id": 2,
+            "account_name": "汇旺",
+            "account_type": "汇旺",
+            "balance": "1902.00",
+            "created_at": "2025-11-03 23:46:44",
+            "updated_at": "2025-11-06 11:49:22"
+        },
+        {
+            "id": 2,
+            "user_id": 2,
+            "account_name": "现金",
+            "account_type": "现金",
+            "balance": "1.00",
+            "created_at": "2025-11-03 23:46:51",
+            "updated_at": "2025-11-03 23:46:51"
+        },
+        {
+            "id": 3,
+            "user_id": 2,
+            "account_name": "ABA",
+            "account_type": "ABA",
+            "balance": "51.00",
+            "created_at": "2025-11-03 23:46:58",
+            "updated_at": "2025-11-06 11:49:31"
+        },
+        {
+            "id": 4,
+            "user_id": 2,
+            "account_name": "币安",
+            "account_type": "币安",
+            "balance": "0.00",
+            "created_at": "2025-11-06 16:23:09",
+            "updated_at": "2025-11-06 16:23:09"
+        }
+    ],
+    "account_transactions": [
+        {
+            "id": 1,
+            "user_id": 2,
+            "account_id": 1,
+            "transaction_type": "lend",
+            "amount": "100.00",
+            "related_table": "friend_transactions",
+            "related_id": 2,
+            "description": "借钱",
+            "transaction_date": "2025-11-05 21:05:28",
+            "created_at": "2025-11-05 21:05:28"
+        },
+        {
+            "id": 2,
+            "user_id": 2,
+            "account_id": 1,
+            "transaction_type": "lend",
+            "amount": "8.00",
+            "related_table": "friend_transactions",
+            "related_id": 3,
+            "description": "吃晚饭",
+            "transaction_date": "2025-11-05 21:05:46",
+            "created_at": "2025-11-05 21:05:46"
+        },
+        {
+            "id": 3,
+            "user_id": 2,
+            "account_id": 1,
+            "transaction_type": "repay",
+            "amount": "200.00",
+            "related_table": "friend_transactions",
+            "related_id": 4,
+            "description": "还钱",
+            "transaction_date": "2025-11-05 21:06:09",
+            "created_at": "2025-11-05 21:06:09"
+        },
+        {
+            "id": 4,
+            "user_id": 2,
+            "account_id": 1,
+            "transaction_type": "lend",
+            "amount": "100.00",
+            "related_table": "friend_transactions",
+            "related_id": 5,
+            "description": "借钱",
+            "transaction_date": "2025-11-06 11:48:59",
+            "created_at": "2025-11-06 11:48:59"
+        },
+        {
+            "id": 5,
+            "user_id": 2,
+            "account_id": 1,
+            "transaction_type": "lend",
+            "amount": "10.00",
+            "related_table": "friend_transactions",
+            "related_id": 6,
+            "description": "在中是",
+            "transaction_date": "2025-11-06 11:49:22",
+            "created_at": "2025-11-06 11:49:22"
+        },
+        {
+            "id": 6,
+            "user_id": 2,
+            "account_id": 3,
+            "transaction_type": "borrow",
+            "amount": "50.00",
+            "related_table": "friend_transactions",
+            "related_id": 7,
+            "description": "奖励",
+            "transaction_date": "2025-11-06 11:49:31",
+            "created_at": "2025-11-06 11:49:31"
+        }
+    ]
+}
